@@ -1,6 +1,9 @@
 --select the database
 use super_market_sale;
 
+-- This database contains only one table named supermarket_sales which have the following columns
+-- invoiceID,Branch,City,customer_type[Normal,Member],Gender[male,female],product_line,unit_price,quantity,tax, total,date,payment,
+-- cogs(cost per good sold), gross margin percentage,gross income,ratings 
 --Inspect the data by selecting all the records
 select * from supermarket_sales;
 
